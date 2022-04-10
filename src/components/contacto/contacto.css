@@ -1,0 +1,67 @@
+/**$*$********************************************************************
+*$*$                         SECCION CONTACTO                            *
+*$*$**********************************************************************/
+.containerFormulario {
+    width: 70%;
+    height: auto;
+    background: url("../../images/contacto/imgForm.png") no-repeat center/cover;
+    border-radius: 6px;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+/*.logo__img--center {
+    width: 35%;
+    height: auto;
+}
+
+ .imgFounder {
+    width: 100%;
+    height: auto;
+}
+
+.imgEmpleado {
+    width: 100%;
+    height: auto;
+} */
+
+.boxFormulario {
+    width: 60%;
+    height: auto;
+}
+
+/**$*$********************************************************************
+*$*$                         MEDIA QUERYS                                *
+*$*$**********************************************************************/
+
+/*NOTEBOOK + LAP + ESCRITORIO DISPOSITIVOS LARGOS*/
+@media screen and (max-width: 992px) {
+    .containerFormulario {
+        width: 95%;
+        height: auto;
+    }
+}
+
+/*TELEFONOS - DISPOSITIVOS XS*/
+@media screen and (max-width: 600px) {
+
+    .containerFormulario {
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+/*TELEFONOS LANDSCAPE + TABLET VERTICAL DISPOSITIVOS SMALLS*/
+@media screen and (max-width: 599px) {
+
+    .containerFormulario {
+        background: white;
+    }
+
+    .boxFormulario {
+        width: 90%;
+        height: auto;
+    }
+
+}
+

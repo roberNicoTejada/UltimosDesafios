@@ -1,0 +1,255 @@
+/**$*$********************************************************************
+*$*$                         ELEMENTOS - TAG                             *
+*$*$**********************************************************************/
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #f3efef;
+}
+
+h1 {
+  color: #464646;
+}
+
+h2 {
+  color: #464646;
+}
+
+h3 {
+  color: #525151;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.separador {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.boxServicios {
+  width: 50%;
+  margin: 1%;
+}
+
+.cartCountwidth{
+  width: 50%;
+}
+
+.nombreProductoCart{
+  font-size: 1.2rem;
+}
+
+.stockPadding {
+  padding-left: 60px;
+}
+
+/**$*$********************************************************************
+*$*$                         MEDIA QUERYS                                *
+*$*$**********************************************************************/
+/*DISPOSITIVOS XL LARGOS*/
+/* @media screen and (max-width: 1200px) {} */
+/*NOTEBOOK + LAP + ESCRITORIO DISPOSITIVOS LARGOS*/
+/* @media screen and (max-width: 992px) {
+  .containerFormulario {
+    width: 95%;
+    height: auto;
+  }
+} */
+
+/*TABLET LANDSCAPE UP DISPOSITIVOS MEDIOS*/
+@media screen and (max-width: 768px) {
+  .mainGaleria {
+    grid-template-columns: repeat(2, minmax(350px, 760px));
+  }
+
+  #parrafo2Founder,
+  #parrafo3Founder {
+    display: none;
+  }
+
+  #imgFounder {
+    width: 100%;
+    height: 500px;
+  }
+
+  .stockPadding {
+    padding-left: 30px;
+  }
+
+}
+
+/*TELEFONOS - DISPOSITIVOS XS*/
+@media screen and (max-width: 600px) {
+  /* .indexFoto1 {
+    background: url("../images/index/img1_cel.png") no-repeat center center/cover fixed;
+  }
+
+  .indexFoto2 {
+    background: url("../images/index/indexPestania_cel.png") no-repeat center center/cover fixed;
+  }
+
+  .indexFoto3 {
+    background: url("../images/index/img3_cel.png") no-repeat center center/cover fixed;
+  }
+
+  .indexFoto4 {
+    background: url("../images/index/indexUltimo_cel.png") no-repeat center center/cover fixed;
+  } */
+
+  /* .containerFormulario {
+    width: 90%;
+    height: auto;
+  } */
+
+  #imgFounder {
+    margin-left: 20px;
+  }
+
+  #parrafo2Founder,
+  #parrafo3Founder {
+    display: block;
+  }
+
+  .flexServicios {
+    flex-direction: column;
+  }
+
+  .flexCejas,
+  .flexUnas {
+    flex-direction: column-reverse;
+  }
+
+  .boxServicios {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+}
+
+/*TELEFONOS LANDSCAPE + TABLET VERTICAL DISPOSITIVOS SMALLS*/
+@media screen and (max-width: 599px) {
+  .mainGaleria {
+    grid-template-columns: repeat(1, minmax(100px, 599px));
+  }
+
+  #imgFounder {
+    width: 90%;
+    height: auto;
+  }
+
+  .imgEmpleado {
+    width: 80%;
+    height: auto;
+  }
+
+  #colFounder {
+    width: 90%;
+    height: auto;
+  }
+
+  #colResenaFounder {
+    width: 85%;
+    height: auto;
+  }
+
+  #colResenaFounder h2 {
+    text-align: center;
+  }
+
+  .logo__img--center {
+    width: 80px;
+    height: auto;
+  }
+
+  /* .boxFormulario {
+    width: 90%;
+    height: auto;
+  }
+
+  .containerFormulario {
+    background: white;
+  } */
+
+  .title {
+    top: 50%;
+  }
+
+  .menuSecciones {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+  }
+
+  .menuSecciones:hover {
+    background-color: transparent;
+  }
+
+  .whatsappWidget {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 33px;
+    z-index: 100;
+  }
+
+  #idCarrito {
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+    right: 20px;
+    font-size: 33px;
+    z-index: 100;
+  }
+
+  #count {
+    bottom: 125px;
+    right: 40px;
+    font-size: 15px;
+  }
+
+  .card-ancho {
+    width: 100% !important;
+  }
+
+.cartCountwidth {
+  width: 100%;
+}
+
+.nombreProductoCart {
+  font-size: 1rem;
+}
+
+.stockPadding{
+  padding-left: 20px;
+}
+
+}
+
+/*TELEFONOS LANDSCAPE + TABLET VERTICAL DISPOSITIVOS SMALLS*/
+@media screen and (max-width: 370px) {
+  #imgFounder {
+    width: 95%;
+    height: auto;
+  }
+
+  #colFounder {
+    width: 95%;
+    height: auto;
+  }
+
+  #colResenaFounder {
+    width: 90%;
+    height: auto;
+  }
+
+  .imgEmpleado {
+    width: 90%;
+    height: auto;
+  }
+}

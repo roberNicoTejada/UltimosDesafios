@@ -1,0 +1,45 @@
+.productoMakeup {
+    color: #525151;
+}
+
+.productoMakeup--title {
+    font-size: 2rem;
+}
+
+.productoMakeup--widthCount {
+    width: 50%;
+}
+
+.productoMakeup--widthButton {
+    width: 60%;
+}
+
+.productoMakeup--fontSize{
+    font-size: 1.5rem;
+}
+
+.productoMakeup--fontSize--stock {
+    font-size: 1.2rem;
+}
+
+
+/*TELEFONOS LANDSCAPE + TABLET VERTICAL DISPOSITIVOS SMALLS*/
+@media screen and (max-width: 599px) {
+
+    .productoMakeup--title {
+        font-size: 1.2rem;
+    }
+
+    .productoMakeup--fontSize--stock {
+        font-size: 1.1rem;
+    }
+
+    .productoMakeup--widthButton {
+        width: 100%;
+    }
+
+    .productoMakeup--widthCount {
+        width: 100%;
+    }
+
+}
